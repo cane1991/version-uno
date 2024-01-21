@@ -1,0 +1,186 @@
+
+/* RESET GENERAL */
+
+*{
+
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box
+    
+    }
+
+/* HEADERS DE TODAS LAS PAGES */
+
+/* color de fondo, ancho y orden en que se amontonan elementos del header */
+header {
+    background:black;
+    width: 100%;
+    z-index: 100;
+}
+
+/* ubicación de la de navegación */
+nav {
+    float: right;
+}
+
+/*estilo de la navegación */
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+/* listado horizontal y tamaño de la letra de cada page*/
+nav ul li {
+    float: left;
+    font-size: 20px;
+}
+
+/*navegación en un bloque, mejora visual menu ponemos color letra, sin subrayado*/
+nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* estética cuando nos posicionamos sobe una page*/
+nav ul li:hover {
+    background: #eca023;
+}
+
+/* visual de la página que aparece actualmente en el menu*/
+.page-actual {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+}
+
+/* ajustes de tamaño y alineación del logo */
+.logo-cg {
+    width: 10%;
+    align-items: center;
+}
+
+/*TEXTOS DE TODAS LAS PAGES*/
+
+/* titulo principal de las pages */
+h1{
+color: black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+padding: 20px 20px;
+}
+
+/* texto de párrafo*/
+
+/*FOOTER DE TODAS LAS PAGES*/
+
+/* fondo general del footer*/
+.pie-pagina{
+    width: 100%;
+    background-color: #1B1919;
+}
+
+/* edición de las columnas del footer*/
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+/* alineación del contenido del footer*/
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ajuste de la imágen del footer*/
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+
+/* ajuste de los subtitulos del footer*/
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+/* ajuste general del box*/
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+/* ajustes entre los iconos de redes*/
+.pie-pagina .grupo-1 .red-social a{
+    margin-right: 20px;
+}
+
+/* ajustes de la linea de derechos reservados*/
+.pie-pagina .grupo-2{
+    padding: 15px 10px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+/*ajustes a los tamaños de los íconos de redes*/
+.logo-instagram, .logo-linkedin{
+    width: 10%;
+}
+
+
+/* PAGE HOME*/
+.training{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+/* PAGE ¿QUIENSOY?*/
+
+/*ajustes a la foto*/
+.foto-personal{
+    width: 30%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+/*ajustes al texto*/
+.p-personal{
+    display: inline-block;
+    width: 400px;
+    background-color: #1B1919;
+    padding: 100px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+/*PAGE CURSOS*/
+
+/*ajustes a cada titulo*/
+h5 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10px;
+}
+/*ajustes a cada imagen*/
+.img-curso {
+    width: 20%;
+    padding-left: 10px;
+}
+/*ajustes a cada párrafo*/
+.parrafo-img {
+    display: inline-block;
+    width: 500px;
+    background-color: gray;
+}
