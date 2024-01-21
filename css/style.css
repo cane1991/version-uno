@@ -13,54 +13,13 @@
 
 /* HEADERS DE TODAS LAS PAGES */
 
-/* color de fondo, ancho y orden en que se amontonan elementos del header */
-header {
-    background:black;
-    width: 100%;
-    z-index: 100;
-}
-
-/* ubicación de la de navegación */
-nav {
-    float: right;
-}
-
-/*estilo de la navegación */
-nav ul {
-    list-style: none;
-    overflow: hidden;
-}
-
-/* listado horizontal y tamaño de la letra de cada page*/
-nav ul li {
-    float: left;
-    font-size: 20px;
-}
-
-/*navegación en un bloque, mejora visual menu ponemos color letra, sin subrayado*/
-nav ul li a {
-    display: block; 
-    padding: 20px;
-    color: #fff;
-    text-decoration: none;
-}
-
-/* estética cuando nos posicionamos sobe una page*/
-nav ul li:hover {
-    background: #eca023;
-}
-
-/* visual de la página que aparece actualmente en el menu*/
-.page-actual {
-    display: block; 
-    padding: 20px;
-    color: #fff;
-}
-
 /* ajustes de tamaño y alineación del logo */
 .logo-cg {
-    width: 10%;
-    align-items: center;
+    width: 20%;
+}
+
+.nav {
+    background-color: black;
 }
 
 /*TEXTOS DE TODAS LAS PAGES*/
